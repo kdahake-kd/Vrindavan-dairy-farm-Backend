@@ -1,0 +1,33 @@
+# Python-related
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# macOS system file
+.DS_Store
+
+# Django database files
+backend_api/db.sqlite3
+
+# Django specific
+
+
+# Environment variables
+backend_api/.env
+
+# Static and compiled files
+backend_api/staticfiles/
+backend_api/static/
+
+
+# Migrations (optional but recommended if multiple team members work with different databases)
+main/migrations/*.py
+!main/migrations/__init__.py
+
+# IDE specific
+.vscode/
+.idea/
